@@ -14,9 +14,6 @@
 
         // close curl resource to free up system resources
         curl_close($ch);
-
-        //Get the public IP address
-        echo "$output";
         
         // close curl resource to free up system resources
         curl_close($ch);
