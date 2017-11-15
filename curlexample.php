@@ -14,9 +14,6 @@
 
         // close curl resource to free up system resources
         curl_close($ch);
-        
-        // close curl resource to free up system resources
-        curl_close($ch);
 
         //Get the public IP address
         echo "The public IP address for your EC2 instance is $output";
